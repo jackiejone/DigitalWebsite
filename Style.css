@@ -1,0 +1,17 @@
+html {
+    background-image: url("background-01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+p {
+    color: red;
+    background-color: rgba(0, 0, 0, 0.5);
+}

@@ -4,6 +4,7 @@ html {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    min-width: 600px;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
 p {
     color: red;
     background-color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4vw;
 }
 
 ul {
@@ -21,6 +23,8 @@ ul {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-size: 2vw;
+    margin-top: 20px;
 }
 
 li {

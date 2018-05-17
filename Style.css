@@ -1,5 +1,9 @@
 html {
+<<<<<<< HEAD
     background-image: url("index/Backgroundupdate-01.jpg");
+=======
+    background-image: url("Backgroundupdate-01.jpg");
+>>>>>>> 5dc8e32f9967d7f6222b298fc04b27ea281e6721
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

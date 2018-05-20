@@ -15,15 +15,23 @@ html {
     min-width: 600px;
 }
 
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body {
-    width: 80%;
     margin: auto;
+    margin-top: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
     color: var(--light_blue);
     background-color: var(--grey);
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 ul {
@@ -33,10 +41,21 @@ ul {
     text-align: center;
     font-size: 1.5rem;
     color: var(--darkest_blue);
-    background-color: var(--grey);
+    background-color: rgb(40, 40, 40);
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 li {
     display: inline;
-    margin: 5%
+    margin: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--light_blue);
 }

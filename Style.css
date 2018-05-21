@@ -59,3 +59,8 @@ a {
 a:visited {
     color: var(--light_blue);
 }
+
+a:hover {
+    color: var(--white);
+    text-decoration: underlne;
+}

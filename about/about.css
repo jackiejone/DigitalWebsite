@@ -1,3 +1,11 @@
+:root {
+    --light_blue: rgb(115, 140, 214);
+    --darker_blue: rgb(55, 108, 178);
+    --darkest_blue: rgb(57, 97, 163);
+    --white: rgb(232, 232, 232);
+    --grey: rgba(40, 40, 40, 0.9);
+}
+
 html {
     background-image: url("Backgroundupdate-03.jpg");
     background-repeat: no-repeat;
@@ -7,28 +15,61 @@ html {
     min-width: 600px;
 }
 
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body {
-    width: 80%;
     margin: auto;
+    margin-top: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
-    color: red;
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 1.4vw;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    padding: 1rem;
+    color: var(--light_blue);
+    background-color: var(--grey);
+    font-size: 1.2rem;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1rem;
     text-align: center;
-    font-size: 2vw;
-    margin-top: 20px;
+    font-size: 1.5rem;
+    color: var(--darker_blue);
+    background-color: rgb(40, 40, 40);
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 li {
     display: inline;
-    margin: auto;
-    padding: 10%;
+    margin: 5%;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--light_blue);
+}
+
+a:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+img {
+    height: 300px;
+    display: block;
+    float: left;
+    margin-right: 1rem;
+}
+

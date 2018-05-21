@@ -27,6 +27,7 @@ body {
 
 p {
     width: 80%;
+    height: 300px;
     margin: auto;
     padding: 1rem;
     color: var(--light_blue);
@@ -40,7 +41,7 @@ ul {
     padding: 1rem;
     text-align: center;
     font-size: 1.5rem;
-    color: var(--darkest_blue);
+    color: var(--darker_blue);
     background-color: rgb(40, 40, 40);
     position: fixed;
     width: 100%;
@@ -64,3 +65,11 @@ a:hover {
     color: var(--white);
     text-decoration: underlne;
 }
+
+img {
+    height: 300px;
+    display: block;
+    float: left;
+    margin-right: 1rem;
+}
+

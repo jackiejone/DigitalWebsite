@@ -2,50 +2,61 @@
     --light_blue: rgb(115, 140, 214);
     --darker_blue: rgb(55, 108, 178);
     --darkest_blue: rgb(57, 97, 163);
-    --white: rgb(232, 232, 232);
+    --white: rgb(240, 235, 235);
     --grey: rgba(40, 40, 40, 0.9);
+    --gray: rgba(60, 60, 60, 0.9);
 }
 
 html {
-    background-image: url("index/Backgroundupdate-01.jpg");
+    /*background-image: url("index/Backgroundupdate-01.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
+    background-color: var(--white);
     min-width: 600px;
 }
 
 header {
+    position: fixed;
+    width: 100%;
+    top: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(51, 49, 49);
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    margin-top: 0.5rem;
+    color: var(--light_blue);
 }
 
 body {
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
-    width: 80%;
-    height: 300px;
+    width: 85%;
     margin: auto;
     padding: 1rem;
-    color: var(--light_blue);
-    background-color: var(--grey);
+    /*color: var(--light_blue);
+    background-color: var(--grey);*/
+    background-color: rgb(199, 199, 199);
+    color: var(--darker_blue);
     font-size: 1.2rem;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 1rem;
+    padding: .8rem;
     text-align: center;
     font-size: 1.5rem;
     color: var(--darker_blue);
-    background-color: rgb(40, 40, 40);
-    position: fixed;
-    width: 100%;
-    top: 0;
+    /*background-color: rgb(40, 40, 40);*/
 }
 
 li {
@@ -63,13 +74,15 @@ a:visited {
 
 a:hover {
     color: var(--white);
-    text-decoration: underlne;
+    text-decoration: underline;
 }
 
 img {
-    height: 300px;
+    width: 80%;
     display: block;
-    float: left;
-    margin-right: 1rem;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 

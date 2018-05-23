@@ -58,12 +58,16 @@ ul {
     text-align: center;
     font-size: 1.5rem;
     color: var(--heading);
-    background-color: rgba(51, 49, 49, 0.9);
+    background-color: rgba(51, 49, 49, 0.9);    
 }
 
 li {
     display: inline;
     margin: 5%;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 a {
@@ -87,4 +91,8 @@ img {
     margin-left: auto;
     margin-right: auto;
 
+}
+
+li.onpage {
+    background-color: rgba(51, 49, 49, 0.9);
 }

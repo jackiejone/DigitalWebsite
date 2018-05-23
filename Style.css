@@ -3,7 +3,7 @@
     --bodytext: rgb(55, 108, 178);
     --htmlbackground: rgb(233, 233, 233);
     --bodybackground: rgb(209, 209, 209);
-    --visited: rgb(72, 19, 170);
+    --visited: rgb(87, 49, 156);
     --hover: rgb(167, 204, 221);
 }
 
@@ -24,10 +24,10 @@ h1 {
     text-align: center;
     margin: 0;
     color: var(--heading);
-    background-color: rgb(51, 49, 49);
+    background-color: rgba(51, 49, 49, 0.9);
     border-style: solid;
     border-color: rgb(32, 31, 31);
-    border-bottom-width: 1px;
+    border-width: 1px;
     border-top-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
@@ -35,7 +35,7 @@ h1 {
 
 body {
     margin: auto;
-    margin-top: 4rem;
+    margin-top: 0px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -58,12 +58,16 @@ ul {
     text-align: center;
     font-size: 1.5rem;
     color: var(--heading);
-    background-color: rgb(51, 49, 49);
+    background-color: rgba(51, 49, 49, 0.9);    
 }
 
 li {
     display: inline;
     margin: 5%;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 a {
@@ -80,6 +84,7 @@ a:hover {
 }
 
 img {
+    margin-top: 100px;
     width: 70%;
     display: block;
     float: center;
@@ -88,3 +93,6 @@ img {
 
 }
 
+li.onpage {
+    background-color: rgba(51, 49, 49, 0.9);
+}

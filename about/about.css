@@ -96,3 +96,13 @@ img {
 li.onpage {
     background-color: rgba(51, 49, 49, 0.9);
 }
+
+footer {
+    text-align: center;
+    bottom: 0px;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: var(--heading);
+    background-color: var(--headerbackground);
+    padding: 1rem;
+}

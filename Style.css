@@ -103,7 +103,7 @@ footer {
     margin-top: 2rem;
     font-size: 1rem;
     color: var(--heading);
-    width: 97.91%;
+    width: 100%;
     background-color: var(--headerbackground);
     padding: 1rem;
 }

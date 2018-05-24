@@ -1,10 +1,10 @@
 :root {
-    --heading: rgb(115, 140, 214);
+    --heading:rgb(115, 140, 214);
     --bodytext: rgb(55, 108, 178);
     --htmlbackground: rgb(233, 233, 233);
     --bodybackground: rgb(209, 209, 209);
-    --visited: rgb(87, 49, 156);
-    --hover: rgb(167, 204, 221);
+    --visited: rgb(94, 121, 204);
+    --headerbackground: rgba(51, 49, 49, 0.9);
 }
 
 html {
@@ -24,7 +24,7 @@ h1 {
     text-align: center;
     margin: 0;
     color: var(--heading);
-    background-color: rgba(51, 49, 49, 0.9);
+    background-color: var(--headerbackground);
     border-style: solid;
     border-color: rgb(32, 31, 31);
     border-width: 1px;
@@ -45,8 +45,8 @@ p {
     padding: 1rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    background-color: var(--bodybackground);
-    color: var(--bodytext);
+    background-color: var(--bodybackground); 
+    color: var(--bodytext); 
     font-size: 1.2rem;
     text-align: center;
 }
@@ -57,8 +57,7 @@ ul {
     padding: .8rem;
     text-align: center;
     font-size: 1.5rem;
-    color: var(--heading);
-    background-color: rgba(51, 49, 49, 0.9);    
+    background-color: var(--headerbackground);    
 }
 
 li {
@@ -70,8 +69,10 @@ li {
     padding-right: 5%;
 }
 
+
 a {
     text-decoration: none;
+    color: var(--visited);
 }
 
 a:visited {
@@ -79,7 +80,6 @@ a:visited {
 }
 
 a:hover {
-    color: var(--hover);
     text-decoration: underline;
 }
 
@@ -95,4 +95,15 @@ img {
 
 li.onpage {
     background-color: rgba(51, 49, 49, 0.9);
+}
+
+footer {
+    text-align: center;
+    bottom: 0px;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: var(--heading);
+    width: 97.91%;
+    background-color: var(--headerbackground);
+    padding: 1rem;
 }

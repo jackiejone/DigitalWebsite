@@ -10,7 +10,7 @@
 
 html {
     background-color: var(--htmlbackground);
-    min-width: 600px;
+    min-width: 800px;
     position: relative;
 }
 
@@ -52,6 +52,18 @@ h2.cause {
     text-align: center;
 }
 
+h2.action {
+    margin-top: 29rem;
+    margin-bottom: 0;
+    padding: .2rem;
+    font-family: 'Roboto Slab', monospace;
+    color: var(--heading);
+    font-size: 2rem;
+    background-color: var(--header2);
+    text-align: center;
+    position: static;
+}
+
 div.cause {
     width: 85%;
     margin: auto;
@@ -67,18 +79,17 @@ p.cause {
     padding: 1rem;
 }
 
-div.right {
+div.action {
     width: 85%;
     margin: auto;
 }
 
-p.right {
+p.action {
     float: right;
     margin: auto;
-    margin-top: 2rem;
     color: var(--bodytext); 
     font-size: 1.2rem;
-    text-align: center;
+    text-align: justify;
     background-color: var(--bodybackground); 
     padding: 1rem;
     margin-bottom: 3rem;
@@ -122,7 +133,7 @@ img.cause {
     margin-left: 1rem;
 }
 
-img.right {
+img.action {
     float: left;
     width: 50%; 
     margin-right: 1rem;

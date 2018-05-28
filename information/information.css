@@ -5,6 +5,7 @@
     --bodybackground: rgb(209, 209, 209);
     --visited: rgb(94, 121, 204);
     --headerbackground: rgba(51, 49, 49, 0.9);
+    --header2: rgba(51, 49, 49, 0.8);
 }
 
 html {
@@ -40,18 +41,28 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-div.left {
+h2.cause {
+    margin-top: 7rem;
+    margin-bottom: 0;
+    padding: .2rem;
+    font-family: 'Roboto Slab', monospace;
+    color: var(--heading);
+    font-size: 2rem;
+    background-color: var(--header2);
+    text-align: center;
+}
+
+div.cause {
     width: 85%;
     margin: auto;
 }
 
-p.left {
+p.cause {
     float: left;
     margin: auto;
-    margin-top: 7rem;
     color: var(--bodytext); 
     font-size: 1.2rem;
-    text-align: center;
+    text-align: justify;
     background-color: var(--bodybackground); 
     padding: 1rem;
 }
@@ -105,14 +116,16 @@ a:hover {
     text-decoration: underline;
 }
 
-img.left {
+img.cause {
     float: right;
     width: 50%;
+    margin-left: 1rem;
 }
 
 img.right {
     float: left;
     width: 50%; 
+    margin-right: 1rem;
 }
 
 li.onpage {

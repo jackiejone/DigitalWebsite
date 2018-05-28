@@ -10,6 +10,7 @@
 html {
     background-color: var(--htmlbackground);
     min-width: 600px;
+    position: relative;
 }
 
 header {
@@ -39,16 +40,37 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-p {
+div.left {
     width: 85%;
     margin: auto;
-    padding: 1rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    background-color: var(--bodybackground); 
+}
+
+p.left {
+    float: left;
+    margin: auto;
+    margin-top: 7rem;
     color: var(--bodytext); 
     font-size: 1.2rem;
     text-align: center;
+    background-color: var(--bodybackground); 
+    padding: 1rem;
+}
+
+div.right {
+    width: 85%;
+    margin: auto;
+}
+
+p.right {
+    float: right;
+    margin: auto;
+    margin-top: 2rem;
+    color: var(--bodytext); 
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: var(--bodybackground); 
+    padding: 1rem;
+    margin-bottom: 3rem;
 }
 
 ul {
@@ -83,14 +105,14 @@ a:hover {
     text-decoration: underline;
 }
 
-img {
-    margin-top: 100px;
-    width: 70%;
-    display: block;
-    float: center;
-    margin-left: auto;
-    margin-right: auto;
+img.left {
+    float: right;
+    width: 50%;
+}
 
+img.right {
+    float: left;
+    width: 50%; 
 }
 
 li.onpage {
@@ -98,15 +120,15 @@ li.onpage {
 }
 
 footer {
-    text-align: center;
-    bottom: 0;
     font-size: 1rem;
-    color: var(--heading);
-    background-color: var(--headerbackground);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 100%;
     position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: var(--headerbackground);
+    color: var(--heading);
+    padding: 1rem;
+    float: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }

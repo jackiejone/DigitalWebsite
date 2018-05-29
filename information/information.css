@@ -41,32 +41,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h2.cause {
-    margin-top: 7rem;
-    margin-bottom: 0;
-    padding: .2rem;
-    font-family: 'Roboto Slab', monospace;
-    color: var(--heading);
-    font-size: 2rem;
-    background-color: var(--header2);
-    text-align: center;
-}
-
-h2.action {
-    margin-top: 29rem;
-    margin-bottom: 0;
-    padding: .2rem;
-    font-family: 'Roboto Slab', monospace;
-    color: var(--heading);
-    font-size: 2rem;
-    background-color: var(--header2);
-    text-align: center;
-    position: static;
-}
-
 div.cause {
     width: 85%;
     margin: auto;
+    display: grid;
+    margin-top: 6rem;
+}
+
+h2.cause {
+    margin-bottom: 0;
+    padding: .2rem;
+    font-family: 'Roboto Slab', monospace;
+    color: var(--heading);
+    font-size: 2rem;
+    background-color: var(--header2);
+    text-align: center;
 }
 
 p.cause {
@@ -82,6 +71,18 @@ p.cause {
 div.action {
     width: 85%;
     margin: auto;
+    display: grid;
+}
+
+h2.action {
+    margin-bottom: 0;
+    padding: .2rem;
+    font-family: 'Roboto Slab', monospace;
+    color: var(--heading);
+    font-size: 2rem;
+    background-color: var(--header2);
+    text-align: center;
+    position: static;
 }
 
 p.action {

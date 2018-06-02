@@ -17,6 +17,7 @@ header {
     width: 100%;
     top: 0;
     font-family: 'Roboto Slab', monospace;
+    font-size: 1.11rem;
 }
 
 h1 {
@@ -47,9 +48,10 @@ p {
     padding-right: 1.5rem;
     background-color: var(--bodybackground); 
     color: var(--bodytext); 
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 11rem;
 }
 
 ul {
@@ -57,7 +59,7 @@ ul {
     margin: 0;
     padding: .8rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     background-color: var(--headerbackground);    
 }
 
@@ -85,11 +87,9 @@ a:hover {
 }
 
 img {
-    width: 70%;
+    width: 100%;
     display: block;
     float: center;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 1rem;
 
 }
@@ -100,7 +100,7 @@ li.onpage {
 
 footer {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: var(--heading);
     background-color: var(--headerbackground);
     padding-top: 1rem;

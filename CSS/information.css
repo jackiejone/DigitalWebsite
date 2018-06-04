@@ -10,8 +10,9 @@
 
 html {
     background-color: var(--htmlbackground);
-    min-width: 800px;
+    min-width: 600px;
     position: relative;
+    font-size: 15px;
 }
 
 header {
@@ -19,6 +20,7 @@ header {
     width: 100%;
     top: 0;
     font-family: 'Roboto Slab', monospace;
+    font-size: 1.5rem;
 }
 
 h1 {
@@ -33,6 +35,7 @@ h1 {
     border-top-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
+    font-size: 2rem;
 }
 
 body {

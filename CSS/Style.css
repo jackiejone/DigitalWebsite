@@ -10,6 +10,7 @@
 html {
     background-color: var(--htmlbackground);
     min-width: 600px;
+    font-size: 15px;
 }
 
 header {
@@ -17,7 +18,7 @@ header {
     width: 100%;
     top: 0;
     font-family: 'Roboto Slab', monospace;
-    font-size: 1.11rem;
+    font-size: 1.5rem;
 }
 
 h1 {
@@ -32,6 +33,7 @@ h1 {
     border-top-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
+    font-size: 2rem;
 }
 
 body {
@@ -50,8 +52,8 @@ p {
     color: var(--bodytext); 
     font-size: 1.4rem;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 11rem;
+    margin-top: 7.5rem;
+    margin-bottom: 2rem;
 }
 
 ul {
@@ -59,7 +61,7 @@ ul {
     margin: 0;
     padding: .8rem;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     background-color: var(--headerbackground);    
 }
 
@@ -87,7 +89,8 @@ a:hover {
 }
 
 img {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     display: block;
     float: center;
     margin-bottom: 1rem;
